@@ -1,0 +1,1 @@
+Attributes on the struct fields does not work when a custom derive is not desired!
