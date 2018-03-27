@@ -5,7 +5,7 @@ extern crate proc_macro;
 
 use proc_macro::{prop, component};
 
-//#[component]
+#[component]
 struct Div {
     // Tried to use a undeclared/undefined #[prop] attribute that #[component] could use but
     // did not work as compiler does not recognize it.
