@@ -20,3 +20,15 @@ pub fn component(_attribute: TokenStream, input: TokenStream) -> TokenStream {
 pub fn prop(_attribute: TokenStream, input: TokenStream) -> TokenStream {
     input
 }
+
+// Similar to component but for impls
+#[proc_macro_attribute]
+pub fn events(_attribute: TokenStream, input: TokenStream) -> TokenStream {
+    input
+}
+
+// Just a placeholder to identify event methods
+#[proc_macro_attribute]
+pub fn event(_attribute: TokenStream, input: TokenStream) -> TokenStream {
+    input
+}
