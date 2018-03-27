@@ -27,8 +27,7 @@ impl Div {
     }
 }
 
-
-
+// This example won't actually work. Because I have not removed the `#[prop]` attribute from the struct
 fn main() {
     println!("Hello, world!");
 }
